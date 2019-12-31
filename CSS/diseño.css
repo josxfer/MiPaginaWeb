@@ -168,5 +168,24 @@ h1{
     color: #ead2a3;
   }
 
+  .hobbies_tittle{
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    width: 500px;
+    margin: inherit;
+    }
 
+  .hobbies{
+    background-color: black;
+    color: white;
+  }
 
+  .family_image_img{
+    transform: rotate(180deg);
+    border: solid 3px aqua;
+  }
+
+  .family_div_complete{
+    width: 490px;
+  }
