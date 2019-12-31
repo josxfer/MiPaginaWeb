@@ -76,7 +76,7 @@ figure{
 }
 
 .hero_text_3{
-  font-size: 38px;
+  font-size: 37px;
   color: aqua;
 }
 
@@ -101,4 +101,72 @@ h1{
   align-items: center;
   justify-content: space-between;
 }
+
+.sentence{
+  width: 1000px;
+  height: 100px;
+  background-color: black;
+  color: #ead2a3;
+}
+
+.sentence_complete{
+  margin: inherit;
+  padding: 15px 0 0 0;
+  align-items: center;
+}
+
+.sentence_autor{
+  margin: inherit;
+  padding: inherit;
+
+}
+
+.sentence_align{
+  width: 340px;
+  font-style: italic;
+}
+
+.sentence_autor{
+  justify-content: right;
+  display: grid;
+  color: aqua;
+}
+
+.sentence_section{
+  background-color: black;
+}
+
+.biography{
+  background-color: black;
+  color: white;
+  }
+
+  .me_tittle{
+  color: white;
+  font-size: 60px;
+  text-transform: uppercase;
+  width: 500px;
+  margin: inherit;
+  }
+
+  .biography_div_complete{
+    display: flex;
+  }
+
+  .biography_text_1{
+    font-size: 26px;
+    color: #ead2a3;
+  }
+
+  .biography_text_2{
+    font-size: 20px;
+    color: aqua;
+  }
+
+  .biography_text_3{
+    font-size: 25px;
+    color: #ead2a3;
+  }
+
+
 
