@@ -407,3 +407,8 @@ hr{
   display: flex;
   justify-content: space-between;
 }
+
+.footer_hipervinculo{
+  text-decoration: none;
+  color: aqua;
+}
