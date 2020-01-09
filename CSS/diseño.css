@@ -139,6 +139,7 @@ h1{
 .biography{
   background-color: black;
   color: white;
+  padding-bottom: 30px;
   }
 
   .me_tittle{
@@ -179,6 +180,7 @@ h1{
   .hobbies{
     background-color: black;
     color: white;
+    padding-bottom: 30px;
   }
 
   .family_image_img{
@@ -187,6 +189,7 @@ h1{
     object-fit: cover;
     width: 490px;
     height: 300px;
+    border-radius: 10px;
   }
 
   .family_div_complete{
@@ -208,8 +211,9 @@ h1{
     padding: 15px;
     padding-top: 1px;
     font-size: 19px;
-    width: 410px;
+    width: 400px;
     height: 200px;
+    border-radius: 10px;
   }
 
   .family_sport_pack{
@@ -222,6 +226,7 @@ h1{
     object-fit: cover;
     width: 490px;
     height: 300px;
+    border-radius: 10px;
   }
 
   .study_tittle{
@@ -235,6 +240,7 @@ h1{
   .study{
     background-color: black;
     color: white;
+    padding-bottom: 60px;
   }
 
   progress {
@@ -277,6 +283,7 @@ ul{
 .contact{
   background-color: black;
   color: white;
+  padding-bottom: 40px;
 }
 
 .input_name{
@@ -375,8 +382,6 @@ ul{
 .footer{
   background-color: black;
   color: white;
-  display: flex;
-  justify-content: space-between;
 }
 
 .footer_line{
@@ -389,4 +394,17 @@ ul{
 
 span{
   color: red;
+}
+
+hr{
+  width: 1000px;
+  margin: 0;
+  height: 1px;
+  background: aqua;
+  border: solid 1px aqua;
+}
+
+.footer_div_block{
+  display: flex;
+  justify-content: space-between;
 }
