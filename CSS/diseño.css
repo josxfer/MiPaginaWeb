@@ -184,7 +184,6 @@ h1{
   }
 
   .family_image_img{
-    transform: rotate(180deg);
     border: solid 3px aqua;
     object-fit: cover;
     width: 490px;
