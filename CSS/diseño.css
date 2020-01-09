@@ -184,8 +184,209 @@ h1{
   .family_image_img{
     transform: rotate(180deg);
     border: solid 3px aqua;
+    object-fit: cover;
+    width: 490px;
+    height: 300px;
   }
 
   .family_div_complete{
     width: 490px;
   }
+
+  .family_tittle{
+    font-size: 32px;
+    color: aqua;
+    margin: 30px 30px 2px 0;
+  }
+
+  .family_div_text{
+    margin: 35px;
+    margin-top: -50px;
+    position: relative;
+    background-color: #ead2a3;
+    color: black;
+    padding: 15px;
+    padding-top: 1px;
+    font-size: 19px;
+    width: 410px;
+    height: 200px;
+  }
+
+  .family_sport_pack{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .other_image_img{
+    border: solid 3px aqua;
+    object-fit: cover;
+    width: 490px;
+    height: 300px;
+  }
+
+  .study_tittle{
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    width: 500px;
+    margin: inherit;
+    }
+
+  .study{
+    background-color: black;
+    color: white;
+  }
+
+  progress {
+    width: 70%;
+    height: 20px;
+    color: #3fb6b2;
+    background: #ead2a3;
+}
+progress::-webkit-progress-bar {
+    background: #ead2a3;
+}
+progress::-webkit-progress-value {
+    background: aqua;
+} 
+progress::-moz-progress-bar {
+    color: aqua;
+    background: #ead2a3;
+}
+
+.list_study{
+  margin: 25px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+
+ul{
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+
+.contact_tittle{
+  color: white;
+  font-size: 40px;
+  text-transform: uppercase;
+  width: 500px;
+  margin: inherit;
+  padding-top: 30px;
+  }
+
+.contact{
+  background-color: black;
+  color: white;
+}
+
+.input_name{
+  width: 450px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 18px;
+  color: black;
+  background-color: #ead2a3;
+  margin-bottom: 10px;
+  border: solid 1px aqua;
+}
+
+.input_email{
+  width: 450px;
+  height: 30px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 18px;
+  color: black;
+  background-color: #ead2a3;
+  margin-bottom: 10px;
+  border: solid 1px aqua;
+}
+
+.textarea_message{
+  width: 450px;
+  height: 50px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 18px;
+  color: black;
+  background-color: #ead2a3;
+  margin-bottom: 10px;
+  border: solid 1px aqua;
+}
+
+.submit{
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  padding: 5px;
+  padding-bottom: 25px;
+  font-size: 18px;
+  color: black;
+  background-color: aqua;
+  margin-bottom: 10px;
+  display: block;
+  text-align: left;
+  border: solid 1px #ead2a3;
+}
+
+.social_link.twitter{
+  background-image: url("C:/Users/josxf/miPaginaWeb/Images/twitter.svg");
+}
+
+.social_link.facebook{
+  background-image: url("C:/Users/josxf/miPaginaWeb/Images/facebook.svg");
+}
+
+.social_link.github{
+  background-image: url("C:/Users/josxf/miPaginaWeb/Images/github.svg");
+}
+
+.social_link.instagram{
+  background-image: url("C:/Users/josxf/miPaginaWeb/Images/instagram.svg");
+}
+
+.social_link{
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-size: 50px 50px;
+  margin: 0 10px;
+}
+
+.contact_block{
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact_div_tittles{
+  display: flex;
+}
+
+.contact_div_followme{
+  text-align: end;
+}
+
+.social{
+  display: flex;
+  align-items: center;
+}
+
+.footer{
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_line{
+  display: flex;
+}
+
+.footer_link{
+  display: flex;
+}
+
+span{
+  color: red;
+}
