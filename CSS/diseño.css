@@ -344,10 +344,6 @@ ul{
   margin: 0 10px;
 }
 
-path{
-  fill: aqua
-}
-
 .contact_block{
   display: flex;
   justify-content: space-between;
