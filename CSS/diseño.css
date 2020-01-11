@@ -336,28 +336,16 @@ ul{
   border: solid 1px #ead2a3;
 }
 
-.social_link.twitter{
-  background-image: url("C:/Users/josxf/miPaginaWeb/Images/twitter.svg");
-}
-
-.social_link.facebook{
-  background-image: url("C:/Users/josxf/miPaginaWeb/Images/facebook.svg");
-}
-
-.social_link.github{
-  background-image: url("C:/Users/josxf/miPaginaWeb/Images/github.svg");
-}
-
-.social_link.instagram{
-  background-image: url("C:/Users/josxf/miPaginaWeb/Images/instagram.svg");
-}
-
 .social_link{
   display: inline-block;
   width: 50px;
   height: 50px;
   background-size: 50px 50px;
   margin: 0 10px;
+}
+
+svg{
+  fill: aqua
 }
 
 .contact_block{
