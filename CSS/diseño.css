@@ -77,6 +77,7 @@ body{
   justify-content: space-between;
   color: white;
   background-color: black;
+  flex-wrap: wrap;
 }
 
 .logo{
@@ -108,13 +109,14 @@ figure{
 }
 
 .container{
-  width: 1000px;
+  max-width: 1000px;
   margin: 0 auto;
   display: inherit;
   justify-content: inherit;
   align-items: inherit;
   height: inherit;
-  flex-wrap: inherit;
+  flex-wrap: wrap;
+  flex: 1;
 }
 
 .link{
@@ -168,6 +170,7 @@ h1{
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .sentence{
@@ -176,6 +179,7 @@ h1{
   color: #ead2a3;
   width: 340px;
   font-style: italic;
+  flex-wrap: wrap;
 }
 
 .sentence_complete{
@@ -204,123 +208,130 @@ h1{
   background-color: black;
   color: white;
   padding-bottom: 30px;
-  }
+  flex-wrap: wrap;
+}
 
-  .me_tittle{
+.me_tittle{
   color: white;
   font-size: 60px;
   text-transform: uppercase;
   width: 500px;
   margin: inherit;
-  }
-
-  .biography_div_complete{
-    display: flex;
-  }
-
-  .biography_text_1{
-    font-size: 26px;
-    color: #ead2a3;
-  }
-
-  .biography_text_2{
-    font-size: 20px;
-    color: aqua;
-  }
-
-  .biography_text_3{
-    font-size: 25px;
-    color: #ead2a3;
-  }
-
-  .hobbies_tittle{
-    color: white;
-    font-size: 60px;
-    text-transform: uppercase;
-    width: 500px;
-    margin: inherit;
-    }
-
-  .hobbies{
-    background-color: black;
-    color: white;
-    padding-bottom: 30px;
-  }
-
-  .family_image_img{
-    border: solid 3px aqua;
-    object-fit: cover;
-    width: 490px;
-    height: 300px;
-    border-radius: 10px;
-  }
-
-  .family{
-    width: 490px;
-  }
-
-  .family_tittle{
-    font-size: 32px;
-    color: aqua;
-    margin: 30px 30px 2px 0;
-  }
-
-  .family_div_text{
-    margin: 35px;
-    margin-top: -50px;
-    position: relative;
-    background-color: #ead2a3;
-    color: black;
-    padding: 15px;
-    padding-top: 1px;
-    font-size: 19px;
-    width: 400px;
-    height: 200px;
-    border-radius: 10px;
-  }
-
-  .family_sport_pack{
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .other_image_img{
-    border: solid 3px aqua;
-    object-fit: cover;
-    width: 490px;
-    height: 300px;
-    border-radius: 10px;
-  }
-
-  .study_tittle{
-    color: white;
-    font-size: 60px;
-    text-transform: uppercase;
-    width: 500px;
-    margin: inherit;
-    }
-
-  .study{
-    background-color: black;
-    color: white;
-    padding-bottom: 60px;
-  }
-
-  progress {
-    width: 70%;
-    height: 20px;
-    color: #3fb6b2;
-    background: #ead2a3;
+  flex-wrap: wrap;
 }
+
+.biography_div_complete{
+  display: flex;
+}
+
+.biography_text_1{
+  font-size: 26px;
+  color: #ead2a3;
+}
+
+.biography_text_2{
+  font-size: 20px;
+  color: aqua;
+}
+
+.biography_text_3{
+  font-size: 25px;
+  color: #ead2a3;
+}
+
+.hobbies_tittle{
+  color: white;
+  font-size: 60px;
+  text-transform: uppercase;
+  width: 500px;
+  margin: inherit;
+}
+
+.hobbies{
+  background-color: black;
+  color: white;
+  padding-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.family_image_img{
+  border: solid 3px aqua;
+  object-fit: cover;
+  width: 490px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.family{
+  width: 490px;
+}
+
+.family_tittle{
+  font-size: 32px;
+  color: aqua;
+  margin: 30px 30px 2px 0;
+}
+
+.family_div_text{
+  margin: 35px;
+  margin-top: -50px;
+  position: relative;
+  background-color: #ead2a3;
+  color: black;
+  padding: 15px;
+  padding-top: 1px;
+  font-size: 19px;
+  width: 400px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.family_sport_pack{
+  display: flex;
+  justify-content: space-between;
+}
+
+.other_image_img{
+  border: solid 3px aqua;
+  object-fit: cover;
+  width: 490px;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.study_tittle{
+  color: white;
+  font-size: 60px;
+  text-transform: uppercase;
+  width: 500px;
+  margin: inherit;
+}
+
+.study{
+  background-color: black;
+  color: white;
+  padding-bottom: 60px;
+  flex-wrap: wrap;
+}
+
+progress {
+  width: 70%;
+  height: 20px;
+  color: #3fb6b2;
+  background: #ead2a3;
+}
+
 progress::-webkit-progress-bar {
-    background: #ead2a3;
+  background: #ead2a3;
 }
+
 progress::-webkit-progress-value {
-    background: aqua;
+  background: aqua;
 } 
+
 progress::-moz-progress-bar {
-    color: aqua;
-    background: #ead2a3;
+  color: aqua;
+  background: #ead2a3;
 }
 
 .list_study{
@@ -341,12 +352,13 @@ ul{
   width: 500px;
   margin: inherit;
   padding-top: 30px;
-  }
+}
 
 .contact{
   background-color: black;
   color: white;
   padding-bottom: 40px;
+  flex-wrap: wrap;
 }
 
 .input_name{
@@ -429,6 +441,7 @@ ul{
 .footer{
   background-color: black;
   color: white;
+  flex-wrap: wrap;
 }
 
 .footer_line{
@@ -459,4 +472,33 @@ hr{
 .footer_hipervinculo{
   text-decoration: none;
   color: aqua;
+}
+
+@media screen and (max-width:1024px){
+
+}
+
+@media screen and (max-width:767px){
+  .header{
+    display: block;
+    height: auto;
+  }
+  .logo{
+    text-align: center;
+  }
+  header nav ol{
+    display: block;
+  }
+  header nav ol li a{
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width:480px){
+  
+}
+
+@media screen and (max-width:320px){
+  
 }
