@@ -69,15 +69,20 @@
 body{
   font-family: 'Oswald', sans-serif;
   margin: 0;
+  position: relative;
 }
 
 .header{
   height: 70px;
   display: flex;
   justify-content: space-between;
-  color: white;
   background-color: black;
   flex-wrap: wrap;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 7;
 }
 
 .logo{
@@ -128,11 +133,15 @@ figure{
 }
 
 .hero_text{
-  width: 500px;
+  width: 50%;
   height: 250px;
   text-transform: uppercase;
   background-color: black;
 
+}
+
+.hero_image_figure{
+  width: 50%;
 }
 
 .hero_text_1{
@@ -162,6 +171,7 @@ h1{
 
 .hero_image{
   object-fit: cover;
+  width: 100%;
 }
 
 .hero{
@@ -171,6 +181,7 @@ h1{
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
+  margin-top: 70px;
 }
 
 .sentence{
@@ -215,13 +226,14 @@ h1{
   color: white;
   font-size: 60px;
   text-transform: uppercase;
-  width: 500px;
+  width: auto;
   margin: inherit;
   flex-wrap: wrap;
 }
 
 .biography_div_complete{
   display: flex;
+  text-align: justify;
 }
 
 .biography_text_1{
@@ -457,7 +469,7 @@ span{
 }
 
 hr{
-  width: 1000px;
+  width: auto;
   margin: 0;
   height: 1px;
   background: aqua;
@@ -475,7 +487,7 @@ hr{
 }
 
 @media screen and (max-width:1024px){
-
+ 
 }
 
 @media screen and (max-width:767px){
@@ -493,6 +505,7 @@ hr{
     justify-content: center;
     align-items: center;
   }
+  
 }
 
 @media screen and (max-width:480px){
