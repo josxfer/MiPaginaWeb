@@ -85,6 +85,10 @@ body{
   z-index: 7;
 }
 
+#container_header{
+  border-bottom: solid .2em aqua;
+}
+
 .logo{
   margin: 0;
 }
@@ -95,6 +99,7 @@ ol{
   list-style: none;
   display: flex;
   height: inherit;
+  font-size: 1.2em;
 }
 
 .header ol li{
@@ -145,22 +150,22 @@ figure{
 }
 
 .hero_text_1{
-  font-size: 80px;
+  font-size: 3.3em;
   color: #ead2a3;
 }
 
 .hero_text_2{
-  font-size: 60px;
+  font-size: 2.5em;
   color: #ead2a3;
 }
 
 .hero_text_3{
-  font-size: 37px;
+  font-size: 1.55em;
   color: aqua;
 }
 
 .hero_text_4{
-  font-size: 25px;
+  font-size: 1.05em;
   color: aqua;
 }
 
@@ -182,6 +187,7 @@ h1{
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 70px;
+  padding-top: 3px;
 }
 
 .sentence{
@@ -197,11 +203,13 @@ h1{
   margin: inherit;
   padding: 15px 0 0 0;
   align-items: center;
+  font-size: 1em;
 }
 
 .sentence_autor{
   margin: inherit;
   padding: inherit;
+  font-size: 1em;
 
 }
 
@@ -224,7 +232,7 @@ h1{
 
 .me_tittle{
   color: white;
-  font-size: 60px;
+  font-size: 3.2em;
   text-transform: uppercase;
   width: auto;
   margin: inherit;
@@ -237,23 +245,23 @@ h1{
 }
 
 .biography_text_1{
-  font-size: 26px;
+  font-size: 1.7em;
   color: #ead2a3;
 }
 
 .biography_text_2{
-  font-size: 20px;
+  font-size: 1.4em;
   color: aqua;
 }
 
 .biography_text_3{
-  font-size: 25px;
+  font-size: 2em;
   color: #ead2a3;
 }
 
 .hobbies_tittle{
   color: white;
-  font-size: 60px;
+  font-size: 3.2em;
   text-transform: uppercase;
   width: 500px;
   margin: inherit;
@@ -279,14 +287,14 @@ h1{
 }
 
 .family_tittle{
-  font-size: 32px;
+  font-size: 2em;
   color: aqua;
   margin: 30px 30px 2px 0;
 }
 
 .family_div_text{
   margin: 35px;
-  margin-top: -50px;
+  margin-top: -16px;
   position: relative;
   background-color: #ead2a3;
   color: black;
@@ -297,10 +305,34 @@ h1{
   height: 200px;
   border-radius: 10px;
 }
+.family_text{
+  font-size: 1em;
+}
 
 .family_sport_pack{
   display: flex;
   justify-content: space-between;
+}
+
+.flexible_video{
+  width: 100%;
+  height: 0;
+  padding-top: 56.25%;
+  position: relative;
+}
+
+.youtube_video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video_div_text{
+  margin-top: 20px;
 }
 
 .other_image_img{
@@ -313,7 +345,7 @@ h1{
 
 .study_tittle{
   color: white;
-  font-size: 60px;
+  font-size: 3.2em;
   text-transform: uppercase;
   width: 500px;
   margin: inherit;
