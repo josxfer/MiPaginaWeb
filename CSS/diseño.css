@@ -61,6 +61,10 @@
   margin: 0 10px;
 }
 
+.burger_button{
+  display: none;
+}
+
 .social a{
   font-size: 3em;
   color: aqua;
@@ -172,11 +176,18 @@ figure{
 h1{
   line-height: 1.01;
   padding: inherit;
+  text-align: center;
 }
 
 .hero_image{
   object-fit: cover;
   width: 100%;
+}
+
+.hero_image_2{
+  object-fit: cover;
+  width: 100%;
+  display: none;
 }
 
 .hero{
@@ -194,9 +205,9 @@ h1{
   height: 100px;
   background-color: black;
   color: #ead2a3;
-  width: 340px;
   font-style: italic;
   flex-wrap: wrap;
+  padding-left: 1em;
 }
 
 .sentence_complete{
@@ -210,13 +221,10 @@ h1{
   margin: inherit;
   padding: inherit;
   font-size: 1em;
-
-}
-
-.sentence_autor{
-  justify-content: right;
   display: grid;
   color: aqua;
+  padding-left: 17em;
+
 }
 
 .sentence_section{
@@ -239,9 +247,12 @@ h1{
   flex-wrap: wrap;
 }
 
-.biography_div_complete{
+.biography_complete{
   display: flex;
   text-align: justify;
+  flex-wrap: wrap;
+  line-height: 2em;
+  word-spacing: -.2em;
 }
 
 .biography_text_1{
@@ -263,7 +274,6 @@ h1{
   color: white;
   font-size: 3.2em;
   text-transform: uppercase;
-  width: 500px;
   margin: inherit;
 }
 
@@ -289,29 +299,32 @@ h1{
 .family_tittle{
   font-size: 2em;
   color: aqua;
-  margin: 30px 30px 2px 0;
+  margin: 0px 30px 2px 0;
 }
 
 .family_div_text{
-  margin: 35px;
-  margin-top: -16px;
+  margin: 23px;
+  margin-top: -45px;
   position: relative;
   background-color: #ead2a3;
   color: black;
   padding: 15px;
   padding-top: 1px;
   font-size: 19px;
-  width: 400px;
-  height: 200px;
+  width: 420px;
+  height: auto;
   border-radius: 10px;
 }
 .family_text{
   font-size: 1em;
+  margin: .1em;
+  word-spacing: -.1em;
 }
 
 .family_sport_pack{
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .flexible_video{
@@ -332,7 +345,7 @@ h1{
 }
 
 .video_div_text{
-  margin-top: 20px;
+  margin-top: 17px;
 }
 
 .other_image_img{
@@ -347,7 +360,6 @@ h1{
   color: white;
   font-size: 3.2em;
   text-transform: uppercase;
-  width: 500px;
   margin: inherit;
 }
 
@@ -356,10 +368,11 @@ h1{
   color: white;
   padding-bottom: 60px;
   flex-wrap: wrap;
+  padding: 0 2em 2em 2em;
 }
 
 progress {
-  width: 70%;
+  width: 100%;
   height: 20px;
   color: #3fb6b2;
   background: #ead2a3;
@@ -391,9 +404,9 @@ ul{
 
 .contact_tittle{
   color: white;
-  font-size: 40px;
+  font-size: 2.5em;
   text-transform: uppercase;
-  width: 500px;
+  width: auto;
   margin: inherit;
   padding-top: 30px;
 }
@@ -401,13 +414,13 @@ ul{
 .contact{
   background-color: black;
   color: white;
-  padding-bottom: 40px;
   flex-wrap: wrap;
+  padding: 0 2em 2em 2em;
 }
 
 .input_name{
-  width: 450px;
-  height: 30px;
+  height: auto;
+  width: 35em;
   border-radius: 5px;
   padding: 5px;
   font-size: 18px;
@@ -418,8 +431,8 @@ ul{
 }
 
 .input_email{
-  width: 450px;
-  height: 30px;
+  height: auto;
+  width: 35em;
   border-radius: 5px;
   padding: 5px;
   font-size: 18px;
@@ -430,8 +443,8 @@ ul{
 }
 
 .textarea_message{
-  width: 450px;
-  height: 50px;
+  height: auto;
+  width: 35em;
   border-radius: 5px;
   padding: 5px;
   font-size: 18px;
@@ -471,6 +484,7 @@ ul{
 
 .contact_div_tittles{
   display: flex;
+  justify-content: space-between;
 }
 
 .contact_div_followme{
@@ -480,12 +494,14 @@ ul{
 .social{
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .footer{
   background-color: black;
   color: white;
   flex-wrap: wrap;
+  padding: 0 2em 2em 2em;
 }
 
 .footer_line{
@@ -518,14 +534,80 @@ hr{
   color: aqua;
 }
 
-@media screen and (max-width:1024px){
- 
+@media screen and (max-width:1023px){
+  h1{
+    font-size: 1.2em;
+  }
+  .hero_text{
+    height: auto;
+  }
+  .sentence{
+    padding-left: 1em;
+  }
+  .biography{
+    font-size: .9em;
+    padding: 0 2em;
+  }
+  .hobbies{
+    font-size: .9em;
+    padding: 0 2em;
+  }
+  .family{
+    width: 48%;
+    margin: 1%;
+  }
+  .family_image img{
+    width: 100%;
+  }
+  .family_div_text{
+    width: 80%;
+  }
+  .youtube_video{
+    width: 100%;
+  }
+  .flexible_video{
+    padding-top: 19em;
+  }
+  .study{
+    font-size: .9em;
+  }
+  .input_name{
+    width: 60vw;
+  }
+  .input_email{
+    width: 60vw;
+  }
+  .textarea_message{
+    width: 60vw;
+  }
+  .contact_div_followme{
+    padding-right: 3em;
+  }
+  .social{
+    max-width: 10em;
+    margin-right: 2em;
+  }
 }
 
 @media screen and (max-width:767px){
+  .burger_button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    display: block;
+    line-height: 40px;
+    text-align: center;
+    color: black;
+    position: fixed;
+    z-index: 8;
+    left: 5px;
+    top: 5px;
+  }
   .header{
     display: block;
     height: auto;
+    position: initial;
   }
   .logo{
     text-align: center;
@@ -534,16 +616,156 @@ hr{
     display: block;
   }
   header nav ol li a{
-    justify-content: center;
     align-items: center;
   }
-  
+  header nav ol li{
+    font-size: 2em;
+  }
+  .first_link{
+    padding-top: 2em;
+  }
+  .menu{
+    position: fixed;
+    background: rgba(0, 0, 0, .95);
+    z-index: 3;
+    top: 0;
+    left: -100vw;
+    width: 80vw;
+    /* height: 100vh; */
+    bottom: 0;
+    display: flex;
+    align-items: normal;
+    justify-content: left;
+    text-align: left;
+    transition: .3s;
+  }
+  .menu.is_active{
+    left: 0;
+  }
+  .hero{
+    height: auto;
+    margin-top: 0;
+  }
+  .hero_text{
+    width: 100%;
+  }
+  .hero_image{
+    display: none;
+  }
+  .hero_image_2{
+    display: block;
+  } 
+  .sentence{
+    text-align: center;
+    font-size: .9em;
+    padding-left: 0;
+  }
+  .biography{
+    font-size: .8em;
+  }
+  .family{
+    width: auto;
+  }
+  .family_div_text{
+    width: auto;
+    margin-top: -.8em;
+  }
+  .video_div_text{
+    margin-top: 1em;
+  }
+  .study{
+    font-size: .8em;
+  }
+  .contact_div_followme{
+    display: none;
+  }
+  .contact_div_tittles{
+    justify-content: center;
+    padding-bottom: 1em;
+  }
+  .contact_block{
+    display: block;
+  }
+  .form{
+    text-align: center;
+    padding-bottom: 1.5em;
+  }
+  .submit{
+    margin: auto;
+  }
+  .social{
+    justify-content: space-around;
+    padding-right: 1em;
+    max-width: initial;
+    margin-right: initial;
+  }
+  .social a{
+    width: 40px;
+    height: 40px;
+    margin: 0;
+  }
+  .footer_div_block{
+    font-size: 1em;
+    display: block;
+    padding-bottom: 1em;
+  }
+  .footer_line{
+    justify-content: center;
+    height: 1.2em;
+  }
+  .footer_link{
+    justify-content: center;
+    height: 1em;
+  }
 }
 
 @media screen and (max-width:480px){
-  
+  header nav ol li{
+    font-size: 1.5em;
+  }
+  h1{
+    font-size: .95em;
+  }
+  .sentence{
+    font-size: .8em;
+  }
+  .biography{
+    font-size: .7em;
+  }
+  .hobbies{
+    font-size: .7em;
+  }
+  .study{
+    font-size: .7em;
+  }
+  .video_div_text{
+    margin-top: 4em;
+  }
+  .footer_line{
+    height: 1.8em;
+  }
 }
 
 @media screen and (max-width:320px){
-  
+  header nav ol li{
+    font-size: 1.2em;
+  }
+  .biography{
+    font-size: .6em;
+  }
+  .hobbies{
+    font-size: .5em;
+  }
+  .video_div_text{
+    margin-top: 7em;
+  }
+  .study{
+    font-size: .5em;
+  }
+  .family_text{
+    font-size: .8em;
+  }
+  .contact{
+    font-size: .8em;
+  }
 }
